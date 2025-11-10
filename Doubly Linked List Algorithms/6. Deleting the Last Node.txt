@@ -1,0 +1,8 @@
+Step 1: If HEAD == NULL, Underflow
+Step 2: Traverse to last node PTR
+Step 3: If PTR->PREV != NULL
+          Set PTR->PREV->NEXT = NULL
+       Else
+          HEAD = NULL
+Step 4: Free PTR
+Step 5: End
