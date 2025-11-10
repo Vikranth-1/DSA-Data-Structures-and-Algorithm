@@ -1,0 +1,5 @@
+Step 1: Initialize PTR = START
+Step 2: While PTR != NULL
+         Process PTR->DATA  (e.g., print or count)
+         Set PTR = PTR->NEXT
+Step 3: End
