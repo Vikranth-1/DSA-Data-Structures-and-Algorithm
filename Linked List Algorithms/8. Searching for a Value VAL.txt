@@ -1,0 +1,7 @@
+Step 1: Set PTR = START
+Step 2: While PTR != NULL
+          If PTR->DATA == VAL then
+              Return found (e.g., position or pointer)
+          Else
+              PTR = PTR->NEXT
+Step 3: Return not found
