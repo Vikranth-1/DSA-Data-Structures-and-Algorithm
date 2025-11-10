@@ -1,0 +1,14 @@
+Step 1: If START == NULL then
+          Underflow
+Step 2: Else
+          Set PTR = START
+          Set PREPTR = NULL
+Step 3: While PTR->NEXT != NULL
+          PREPTR = PTR
+          PTR = PTR->NEXT
+Step 4: If PREPTR == NULL (only one node)
+          START = NULL
+Step 5: Else
+          PREPTR->NEXT = NULL
+Step 6: Free PTR
+Step 7: End
