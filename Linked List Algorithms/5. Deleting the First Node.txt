@@ -1,0 +1,7 @@
+Step 1: If START == NULL then
+          Underflow (list empty)
+Step 2: Else
+          Set PTR = START
+          Set START = START->NEXT
+          Free PTR
+Step 3: End
