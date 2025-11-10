@@ -1,0 +1,11 @@
+Step 1: If START == NULL then UNDERFLOW
+Step 2: Set PTR = START, PREPTR = NULL
+Step 3: Traverse PTR until PTR->NEXT == START
+         Update PREPTR = PTR, PTR = PTR->NEXT
+Step 4: If PTR == START (only one node)
+          Set START = NULL
+          Free PTR
+          Exit
+Step 5: Set PREPTR->NEXT = START
+Step 6: Free PTR
+Step 7: End
