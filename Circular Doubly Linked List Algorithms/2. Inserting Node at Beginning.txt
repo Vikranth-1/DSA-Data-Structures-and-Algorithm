@@ -1,0 +1,14 @@
+Step 1: Create NewNode
+Step 2: Set NewNode->DATA = VAL
+Step 3: If HEAD == NULL
+          Set NewNode->NEXT = NewNode
+          Set NewNode->PREV = NewNode
+          Set HEAD = NewNode
+          Exit
+Step 4: Set LAST = HEAD->PREV
+Step 5: Set NewNode->NEXT = HEAD
+Step 6: Set NewNode->PREV = LAST
+Step 7: Set LAST->NEXT = NewNode
+Step 8: Set HEAD->PREV = NewNode
+Step 9: Set HEAD = NewNode
+Step 10: End
