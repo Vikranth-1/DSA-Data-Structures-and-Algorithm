@@ -1,0 +1,5 @@
+Step 1: Set PTR = START
+Step 2: While PTR != NULL do
+          Process PTR->DATA
+          Set PTR = PTR->NEXT
+Step 3: End
