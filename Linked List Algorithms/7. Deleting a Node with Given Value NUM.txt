@@ -1,0 +1,15 @@
+Step 1: If START == NULL then
+          Underflow
+Step 2: Set PTR = START
+        Set PREPTR = NULL
+Step 3: While PTR->DATA != NUM and PTR != NULL
+          PREPTR = PTR
+          PTR = PTR->NEXT
+Step 4: If PTR == NULL then
+          NUM not found, exit
+Step 5: Else If PREPTR == NULL (node to delete is first)
+          START = START->NEXT
+Step 6: Else
+          PREPTR->NEXT = PTR->NEXT
+Step 7: Free PTR
+Step 8: End
