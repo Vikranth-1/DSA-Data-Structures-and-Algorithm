@@ -1,0 +1,5 @@
+Step 1: If START == NULL then UNDERFLOW
+Step 2: Set PTR = START
+Step 3: Set START = START->NEXT
+Step 4: Free PTR
+Step 5: End
