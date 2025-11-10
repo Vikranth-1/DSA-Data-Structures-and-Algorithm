@@ -1,0 +1,5 @@
+Step 1: Create NewNode
+Step 2: Set NewNode->DATA = VAL
+Step 3: Set NewNode->NEXT = START
+Step 4: Set START = NewNode
+Step 5: End
