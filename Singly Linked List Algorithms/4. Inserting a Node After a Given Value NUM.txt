@@ -1,0 +1,8 @@
+Step 1: Create NewNode
+Step 2: Set NewNode->DATA = VAL
+Step 3: Set PTR = START
+Step 4: While PTR->DATA != NUM
+          PTR = PTR->NEXT
+Step 5: Set NewNode->NEXT = PTR->NEXT
+Step 6: Set PTR->NEXT = NewNode
+Step 7: End
