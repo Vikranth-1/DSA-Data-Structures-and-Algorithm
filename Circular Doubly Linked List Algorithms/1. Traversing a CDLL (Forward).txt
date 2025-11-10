@@ -1,0 +1,6 @@
+Step 1: Set PTR = HEAD
+Step 2: Do
+          Process PTR->DATA
+          Set PTR = PTR->NEXT
+       While PTR != HEAD
+Step 3: End
