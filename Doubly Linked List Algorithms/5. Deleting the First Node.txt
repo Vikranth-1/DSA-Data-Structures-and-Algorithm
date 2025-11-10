@@ -1,0 +1,6 @@
+Step 1: If HEAD == NULL, Underflow
+Step 2: Set PTR = HEAD
+Step 3: Set HEAD = HEAD->NEXT
+Step 4: If HEAD != NULL, HEAD->PREV = NULL
+Step 5: Free PTR
+Step 6: End
