@@ -1,0 +1,8 @@
+Step 1: If START == NULL then UNDERFLOW
+Step 2: Set PTR = START, PREPTR = NULL
+Step 3: While PTR->NEXT != NULL
+          PREPTR = PTR
+          PTR = PTR->NEXT
+Step 4: Set PREPTR->NEXT = NULL
+Step 5: Free PTR
+Step 6: End
