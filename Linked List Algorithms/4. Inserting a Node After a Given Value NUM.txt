@@ -1,0 +1,11 @@
+Step 1: Create NewNode
+Step 2: Set NewNode->DATA = VAL
+Step 3: Set PTR = START
+Step 4: While PTR->DATA != NUM and PTR != NULL
+          PTR = PTR->NEXT
+Step 5: If PTR == NULL then
+          NUM not found, exit
+Step 6: Else
+          Set NewNode->NEXT = PTR->NEXT
+          Set PTR->NEXT = NewNode
+Step 7: End
