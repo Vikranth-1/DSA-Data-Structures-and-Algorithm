@@ -1,0 +1,12 @@
+Step 1: If HEAD == NULL, Underflow
+Step 2: Set LAST = HEAD->PREV
+Step 3: If HEAD == LAST (one node)
+          Free HEAD
+          Set HEAD = NULL
+          Exit
+Step 4: Set PTR = HEAD
+Step 5: Set HEAD = HEAD->NEXT
+Step 6: Set LAST->NEXT = HEAD
+Step 7: Set HEAD->PREV = LAST
+Step 8: Free PTR
+Step 9: End
