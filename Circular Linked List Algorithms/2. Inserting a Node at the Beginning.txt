@@ -1,0 +1,12 @@
+Step 1: Create NewNode
+Step 2: Set NewNode->DATA = VAL
+Step 3: If START == NULL then
+          Set START = NewNode
+          Set NewNode->NEXT = START
+          Exit
+Step 4: Set PTR = START
+Step 5: Traverse PTR to the last node (PTR->NEXT != START)
+Step 6: Set NewNode->NEXT = START
+Step 7: Set PTR->NEXT = NewNode
+Step 8: Set START = NewNode
+Step 9: End
