@@ -1,0 +1,10 @@
+Step 1: Create NewNode
+Step 2: Set NewNode->DATA = VAL
+Step 3: Set PTR = START
+Step 4: Repeat until PTR->DATA == NUM or PTR->NEXT == START
+          PTR = PTR->NEXT
+Step 5: If PTR->DATA != NUM then
+          Value not found, exit
+Step 6: Set NewNode->NEXT = PTR->NEXT
+Step 7: Set PTR->NEXT = NewNode
+Step 8: End
